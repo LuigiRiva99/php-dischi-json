@@ -11,7 +11,17 @@
 <body>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <div id="app">
-        {{ message }}
+        <main>
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div v-for="disc in discs" class="card col-4">
+                            <p>{{disc.title}}</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
     </div>
     <script src="./js/app.js"></script>
 </body>
