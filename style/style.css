@@ -1,0 +1,20 @@
+p{
+    margin: 0;
+}
+
+.card-section{
+    background-color: #a593ec;
+}
+.title, .author{
+    font-weight: bold;
+}
+
+.ms_card, .ms_card_modal{
+    background-color: #27166c;
+    color: white;
+}
+
+.ms_card_modal{
+    border-radius: 10px;
+}
+
